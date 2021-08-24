@@ -1,0 +1,595 @@
+body{
+	font-size: 14px;
+}
+ul{
+	list-style: none;	
+	padding: 0;
+}
+a{
+	color: #1e1e1e;
+	font-weight: 600;
+}
+a:hover{
+	color: #FFD200;
+}
+.nullMP{
+	margin: 0;
+	padding: 0;
+}
+.colMargin{
+	margin: 50px 0;
+}
+.shopCardMargin{
+	margin: 20px 0 0 0;
+}
+/************START HEADER***************/
+
+/*----Start TopNavbar-----*/
+.topNavbar{
+	background-color: #f2f2f2;
+	padding: 10px 0;
+}
+.allTopBoxDiv{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.divBox1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-column-gap: 15px;
+}
+.divBox1 p{
+	margin: 0;
+	color: #676767;
+	font-weight: 600;
+}
+.divBox1 i{
+	font-size: 12px;
+	color: #676767;
+}
+.divBox2 ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	grid-column-gap: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #676767;
+}
+.leftBorder{
+	border-left: 1px solid #676767;
+	width: 100%;
+	height: 20px;	
+}
+.btnTopNvbr{
+	background: none;
+	border: none;
+	outline: none !important;
+	text-transform: uppercase;
+	color: #676767;
+	font-weight: 600;	
+}
+.mblBtn{
+	border: none;
+	outline: none !important;
+}
+.mobileIconsTopNavbar{
+	color: #676767;
+}
+/*----Stop TopNavbar-----*/
+/*---------------------------------------*/
+/*-----Start NAVBAR-----*/
+.nav-link{
+	font-weight: 600;
+}
+.navbar-toggler{
+	color: #000 !important;
+	border: none;
+	outline: none !important;
+}
+.navbarIcon{
+	font-family: "Lobster";
+	font-size: 40px;
+	color: #000;
+}
+.socialBoxNavbar{
+	display: flex;
+	grid-column-gap: 10px;
+	margin: 0;
+	padding: 0;
+}
+.navbarLogo{
+	display: flex !important;
+	justify-content: center !important;
+	flex-grow: 1;
+}
+.navbarIcons{
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	grid-column-gap: 20px;
+}
+.socialBoxNavbar li a{
+	color: #FFD200;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border: 1px solid #FFD200;
+	border-radius: 50%;
+}
+.socialBoxNavbar li a:hover{
+	color: #fff;
+	border: 1px solid #FFD200;
+	background-color: #FFD200; 
+}
+.btnNavbar{
+	background: #000;
+	color: #eee;
+	font-weight: 600;
+	border-radius: 0 !important;
+}
+.btnNavbar:hover{
+	color: #fff !important;
+}
+/*-----Start NAVBAR-----*/
+/************STOP HEADER***************/
+
+/**************START CAROUSEL*************/
+#slider1{
+	background-image: url(../images/slider1.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center center;
+  	width: 100%;
+  	height: 40vmax;
+}
+#slider2{
+	background-image: url(../images/slider2.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center center;
+  	width: 100%;
+  	height: 40vmax;
+}
+#slider3{
+	background-image: url(../images/slider3.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center center;
+  	width: 100%;
+  	height: 40vmax;
+}
+.crslBox{
+	display: flex;		
+	justify-content: center;
+	align-items: center;
+}
+.borderStockBox{
+	border: 1px solid #fff;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.stocksTextBox{
+	padding: 25px;
+	background-color: rgba(255,255,255,0.3);	
+	display: grid;
+	text-align: center;
+	align-items: center;
+}
+.stocktxtSpan{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	color: #fff;	
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+.stocktxtH3{
+	padding: 0;
+	margin: 0;
+	color: #1f1f1f;	
+	font-weight: 700;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.boxShopNow{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+.btnshopnow{
+	background-color: #1f1f1f;
+	color: #fff;
+	height: 40px;
+	width: 200px;
+	border: none;	
+	font-weight: 600;	
+}
+.btnshopnow:hover{
+	background-color: #000; 
+}
+/**************STOP CAROUSEL*************/
+
+/**************START SUPPORT***************/
+.supportBox{
+	margin: 10px 0;
+	display: flex;	
+	align-items: center;
+	background-color: #FFD200;
+	color: #1e1e1e;
+	padding: 10px 0;
+}
+.supportBoxBlack{
+	background-color: #000;
+	color: #fff;
+}
+.iconSprt{
+	font-size: 35px;
+	margin: 0 20px;
+}
+.txtSupport h4{
+	margin: 0;
+	padding: 0;
+}
+/**************STOP SUPPORT***************/
+
+/******************START HR DIV*******************/
+.hrDiv{
+	height: 2px;
+	width: 100%;
+	background-color: #1f1f1f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hrDiv h3{
+	font-family: "Lobster";
+	background-color: #fff;
+	padding: 0 20px;
+	color: #1f1f1f;
+}
+/******************STOP HR DIV*******************/
+
+/******************START FEATURED*******************/
+.imgBoxFeaturedMiddle{
+	width: 100%;
+	max-height: 100%;
+	position: absolute;
+	height: auto;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	display: grid;
+	align-items: center;
+}
+.middleBoxTxt{
+	position: absolute;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+.middleBoxTxt div{
+	margin-left: 20px;
+}
+.middleBoxTxt div span{
+	font-size: 16px;
+	font-weight: 600;
+}
+.middleBoxTxt div h4{
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+}
+.middleImgFeatured{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.imgFeatured{	
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.overlayFeatured{	
+	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	display: none;
+	transition: 1s ease;
+  	background-color: rgb(0,0,0,0.5);
+}
+.imgBoxFeatured:hover .overlayFeatured{
+	display: block;
+	transition: 1s;
+}
+.whiteVersion{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+	background-color: #eee;
+	color: #000;
+}
+.whiteVersion:hover{
+	background-color: #fff;
+	color: #000;
+}
+/******************STOP FEATURED*******************/
+
+/******************STOP SHOP CARD*******************/
+.cardImg{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.shopCardTxtBox{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.btnDiv{
+	position: absolute;
+	bottom: 0;	
+	left: 50%;
+	-webkit-transform: translate(-50%);
+  	-ms-transform: translate(-50%);
+  	transform: translate(-50%);  	  	
+  	padding: 0;  	
+  	border-bottom: 35px solid black;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	height: 0;
+	width: 200px;
+	background: none;
+}
+.btnDiv:hover{
+	border-bottom: 35px solid #FFD200;
+}
+.addtocard{
+	background: none;
+	color: #fff;
+  	font-weight: 600;
+  	outline: none !important;
+  	border: none;
+  	display: flex;
+  	justify-content: center;
+  	margin-top: 5px;  	
+  	width: 100%;
+  	height: 100%;
+}
+.hope{
+	margin: 5px 0 0 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #FFD200;
+}
+.overlay{
+	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;  	 
+  	display: none; 
+	transition: 1s ease;
+  	background-color: rgb(0,0,0,0.5);
+}
+.allOverlayBox:hover .overlay{
+	display: block !important;
+}
+.activeStar{
+	color: #FFD200 !important;
+}
+.textOverlayBox{
+	display: flex;
+	justify-content: center;
+}
+.boxAdd{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);		
+}
+.add{
+	border: 2px solid #FFD200;
+	border-radius: 50%;
+	padding: 20px;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFD200;
+	font-size: 40px;
+	top:;
+}
+.cardtextoverlay{
+	color: #FFD200;
+}
+.rating{
+	bottom: 0;
+	position: absolute;
+	margin-bottom: 40px;	
+}
+.rating i{
+	color: #676767;
+}
+/******************STOP SHOP CARD*******************/
+
+/*******************START SWIPER-JS*******************/
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+/*******************STOP SWIPER-JS*******************/
+
+
+/*******************START SAYS*******************/
+.saysBox{
+	background: #F7971E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	width: 100%;
+	height: 40vh;
+	display: grid;
+	justify-content: center;	
+	
+}
+.saysArrowWhite{			
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-top: 60px solid #fff;		
+}
+.saystxtbox{
+	width: 100%;
+	height: 100%;
+	display: grid;	
+	grid: 10vmin 10vmin 35px 25px / 45vmin;
+	justify-content: center;
+	align-items: center;	
+}
+.saysTxtH3{
+	display: flex;
+	justify-content: center;	
+	font-family: "Lobster";	
+	font-size: 50px;	
+}
+.saysTxtSpan{
+	font-family: "Satisfy";
+	font-size: 22px;	
+	color: #1e1e1e;
+	font-weight: 600;
+	text-align: center;	
+}
+.saysTxtH3Name{	
+	font-family: "Lobster";	
+	font-size: 28px;	
+	display: flex;
+	justify-content: flex-end;	
+}
+.saysTxtSpanDesign{
+	font-family: "Satisfy";
+	display: flex;
+	justify-content: flex-end;
+	font-size: 15px;
+	width: 40vmin;
+	color: #1e1e1e;
+	font-weight: 800;	
+	text-transform: uppercase;
+	width: 100%;
+}
+/*******************STOP SAYS*******************/
+
+/*******************START FOOTER********************/
+.socialBoxFooter{
+	display: flex;	
+	padding: 0;
+	margin: 0;
+	grid-column-gap: 15px;	
+}
+.socialBoxFooter li a{
+	color: #1e1e1e;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border: 1px solid #1e1e1e;
+	border-radius: 5px;
+}
+.socialBoxFooter li a:hover{
+	background-color: #FFD200;
+	color: #fff;
+	border: 1px solid #FFD200;
+}
+.sbscBox{
+	border: 1px solid #1e1e1e;
+	border-radius: 3px;
+	padding: 2px;	
+}
+.sbscBox input{
+	border: none;
+	color: #1e1e1e;
+	outline: none !important;
+	padding: 5px;	
+}
+.sbscBox input::placeholder{
+	color: #1e1e1e;
+	font-size: 13px;
+	text-align: center;
+	font-weight: 600;
+}
+.sbscbtn{
+	background-color: #1e1e1e;
+	color: #fff;
+	border: none;
+	text-transform: uppercase;
+	padding: 7px 10px;
+	font-weight: 600;
+	font-size: 12px;
+	margin-right: 18px;
+	position: absolute;
+	right: 0;
+}
+.footerBottom p{
+	color: #1e1e1e;
+	font-weight: 600;
+}
+.plasticcardBox{
+	display: flex;
+	grid-column-gap:  15px;
+}
+/*******************STOP FOOTER********************/

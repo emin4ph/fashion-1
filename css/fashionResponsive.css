@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1026px) {
+	.borderStockBox{
+		padding: 7px; 
+	}
+	.stocktxtSpan{
+		font-size: 15px;
+	}
+	.stocktxtH3{
+		font-size: 25px;
+	}
+	.boxShopNow{
+		margin-top: 20px;
+	}
+	.btnshopnow{
+		width: 150px;
+		height: 30px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.navbarLogo{
+		display: none !important;
+	}
+	.navbarIcons{
+		display: none !important;
+	}
+	.saysTxtH3{
+		font-size: 30px;
+	}
+	.saysTxtSpan{
+		font-size: 18px;
+	}
+	.saysTxtH3Name{
+		font-size: 25px;
+	}
+	.saysTxtSpanDesign{
+		font-size: 13px;
+	}
+	.mobileMarginForFeatured{
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 580px) {
+	.saysBox{
+		height: 50vmin !important;
+	}
+}
+@media only screen and (max-width: 510px) {
+	.allTopBoxDiv{
+		display: grid;
+		grid: repeat(2, 25px) / 1fr;		
+	}
+	.saystxtbox{
+		grid-template-columns: auto
+	}
+	.saysBox{
+		height: 60vmin !important;
+	}
+	.saysArrowWhite{			
+		border-left: 120px solid transparent;
+		border-right: 120px solid transparent;
+		border-top: 30px solid #fff;		
+	}
+	.saysTxtH3{
+		font-size: 25px;
+	}
+	.saysTxtSpan{
+		font-size: 16px;
+	}
+	.saysTxtH3Name{
+		font-size: 22px;
+		padding-right: 5px;
+	}
+	.saysTxtSpanDesign{
+		font-size: 10px;
+		padding-right: 5px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.dNoneWlcm{
+		display: none;
+	}
+	.saysBox{
+		height: 80vmin !important;
+	}
+	.saystxtbox{
+		grid: 20vmin 20vmin 35px 25px / auto;
+
+	}
+}
+/********HEIGHT**********/
+@media only screen and (min-height: 100px){
+	.saysBox{
+		height: 40vmin;
+	}
+}
